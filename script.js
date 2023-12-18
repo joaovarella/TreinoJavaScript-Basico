@@ -38,3 +38,6 @@ if(forma === 'quadrado'){
 }
 
 console.log(area);
+
+
+//as features do JavaScript que trazem a criação do let e const é a ES2015
