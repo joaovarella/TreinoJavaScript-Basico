@@ -10,6 +10,16 @@ const segundoNumero = 2;
 // const operacaoMatematica = primeiroNumero / segundoNumero;
 const operacaoMatematica = primeiroNumero - segundoNumero;
 
+//menor ou igual <=
+console.log(primeiroNumero <= segundoNumero); // true, 1 é menor que 2
+
+//maior ou igual >=
+console.log(segundoNumero >= meuNumero); //false, 2 é menor que 3
+
+//somar com prioridade
+
+const somaPrioridade = (meuNumero - segundoNumero) * primeiroNumero;
+// console.log(somaPrioridade); // resulta em 1
 // console.log(operacaoMatematica);
 
 // ponto flutuante
@@ -37,7 +47,7 @@ const alura = "Alura";
 // console.log(novaOperacao.toLocaleString('pt-br', {style: 'percent'}));
 
 //Metodo para arredondar para cima
-console.log(Math.ceil(novaOperacao));
+// console.log(Math.ceil(novaOperacao));
 
 //Metodo para arredondar para baixo
-console.log(Math.floor(novaOperacao));
+// console.log(Math.floor(novaOperacao));
